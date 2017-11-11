@@ -11,7 +11,7 @@ z-index: 10;
   position: fixed;
   width: 100%;
   height: 56px;
-  background-color: #005c5c;
+  background-color: yellowgreen;
   top: 0;
   left: 0;
   box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.5);
@@ -30,7 +30,7 @@ padding-top: 13px;
 margin: 0;
   text-align: center;
   font-size: 23px;
-  color: white;
+  color: black;
 }
 div.bf_001{
   z-index: 20;
@@ -60,7 +60,7 @@ div.bf_002 {
   width: 56;
   height: 56;
   border-radius: 50%;
-  background-color: #005c5c;
+  background-color: yellowgreen;
   font-size: 40;
   text-align: center;
   pointer-events:auto;
@@ -76,7 +76,7 @@ div.bf_002.sml {
   width: 46;
   height: 46;
   border-radius: 50%;
-  background-color: #005c5c;
+  background-color: yellowgreen;
   font-size: 30;
 }
 div.bf_002.sml p {
@@ -119,6 +119,8 @@ div.c_003 h1 {
     margin-left: 8%;
     margin-right: 8%;
     margin-bottom: 0px;
+    color: white;
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
 }
 div.c_003 h2 {
     font-size: 25px;
@@ -139,12 +141,15 @@ div.c_003 li {
     width: 50%;
     height: 50%;
     background-color: red;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 div.c_004 {
   width: 50%;
   padding: 5 0 5 0;
   float: left;
-  background-color: green;
+  background-color: #00b9b9;
 }
 div.c_004 a {
   margin: 0;
@@ -152,6 +157,7 @@ div.c_004 a {
   text-align: right;
   display: block;
   font-size: 20px;
+  color: white;
 }
 div.w_001 {
   background-color: #FFFACD;
@@ -192,7 +198,7 @@ div.litem_002 h3 {
   float: right;
   margin: 5 7 0 0;
   border-radius: 5px;
-  background-color: #5da138;
+  background-color: yellowgreen;
   color: white;
 }
 div.litem_002 h4 {
@@ -353,7 +359,7 @@ div.fly_h_001 {
   position: absolute;
   width: 100%;
   height: 56px;
-  background-color: #005c5c;
+  background-color: yellowgreen;
   top: 0;
   left: 0;
   z-index: 110;
@@ -363,7 +369,7 @@ div.fly_h_001 h1 {
   margin: 13 0 10 0;
   text-align: center;
   font-size: 24px;
-  color: white;
+  color: black;
 }
 div.fly_c_001 {
   position: absolute;
@@ -390,7 +396,7 @@ div.fly_bf_002 {
   width: 56;
   height: 56;
   border-radius: 50%;
-  background-color: #005c5c;
+  background-color: yellowgreen;
   font-size: 40;
   text-align: center;
   pointer-events: auto;
@@ -407,7 +413,7 @@ div.fly_bf_002.green {
 div.f_001 ul {
   margin: 0 auto 0 auto;
   list-style-type: none;
-  width: 200px;
+  width: 300px;
   height: 58px;
   padding: 0;
 }
@@ -424,7 +430,7 @@ div.f_001 a {
 	color: gray;
 }
 div.f_001 a.selected {
-  color: #005c5c;
+  color: yellowgreen;
 }
 div.n_001 {
 	position: fixed;
@@ -448,7 +454,7 @@ a.close_001 {
 	right: 13px;
 	top: 0px;
 	font-size: 42px;
-	color: white;
+	color: black;
 	z-index: 250;
 	text-decoration: none;
 }
@@ -457,7 +463,7 @@ a.menu_001 {
 	left: 13px;
 	top: 0px;
 	font-size: 42px;
-	color: white;
+	color: black;
 	z-index: 250;
   font-size: 22;
   padding-top: 12;

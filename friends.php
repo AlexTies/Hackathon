@@ -8,7 +8,7 @@
 <div class="fly_001" id="fly_001" onclick="fly_001_visible(false)"></div>
 <div class="fly_000" id="fly_000"></div>
 <div class="h_001">
-  <h1>Deine Freunde</h1>
+  <h1>Your Friends</h1>
 </div>
 <div class="c_001" id="c_default">
   <div class="litem_001">RANKING</div>
@@ -33,10 +33,13 @@
 <div class="f_001">
   <ul>
     <li>
-      <a href="./index.php">Übersicht</a>
+      <a href="./index.php">Home</a>
     </li>
     <li>
-      <a href="./members.php" class="selected">Mitglieder</a>
+      <a href="./challenges.php">Challenges</a>
+    </li>
+    <li>
+      <a href="./friends.php" class="selected">Friends</a>
     </li>
   </ul>
 </div>

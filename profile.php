@@ -33,17 +33,35 @@
     <?php echo "Gewicht: " . $user['Gewicht'] . " Kg<br>"; ?>
     <?php echo "Fitness: " . str_replace("2","sehr gut",str_replace("0","schlecht",str_replace("1","gut",$user['Fitness']))) . "<br>"; ?>
     <?php echo "Ernährung: " . $user['Ernaehrung'] . "<br>"; ?>
+    </div>
+    <div class="litem_002">
+      <h6>Connected smart home devices</h6>
+    <?php
+    $sql = "SELECT * FROM smarthome;";
+    $erg = $pdo->query($sql);
+    $zaeler = 1;
+    foreach ($erg as $row) {
+        echo $row['Item'] . '<br>';
+        $zaeler = $zaeler + 1;
+    }
+    if($zaeler == 1){
+      echo 'You have none.<br>';
+    }
+    ?>
   </div>
 
-  <div class="litem_002"><h6>Account Optionen</h6><h2><a class="button" href="javascript:void(0)">Password ändern</a><a class="button" href="javascript:void(0)">Abmelden</a></h2></div>
+  <div class="litem_002"><h6>Account options</h6><h2><a class="button" href="javascript:void(0)">Password ändern</a><a class="button" href="javascript:void(0)">Abmelden</a></h2></div>
 </div>
 <div class="f_001">
   <ul>
     <li>
-      <a href="./index.php">Übersicht</a>
+      <a href="./index.php">Home</a>
     </li>
     <li>
-      <a href="./members.php" class="selected">Mitglieder</a>
+      <a href="./challenges.php">Challenges</a>
+    </li>
+    <li>
+      <a href="./friends.php">Friends</a>
     </li>
   </ul>
 </div>
